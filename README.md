@@ -38,7 +38,7 @@ responde corretamente às perguntas da tabuada.
 1. **Clone o repositório ou faça o download dos arquivos.**
 
    ```bash
-   git clone https://github.com/seu-usuario/jogo-tabuada.git
+   git clone https://github.com/davirodriguesporto/tabuada-divertida.git
    ```
 
 2. **Abra o arquivo `index.html` em um navegador.**
@@ -53,7 +53,7 @@ responde corretamente às perguntas da tabuada.
 
 - **Imagem de Fundo:** Para alterar a imagem de fundo, substitua o arquivo `background.jpg` na raiz do projeto por outra
   imagem de sua escolha. Certifique-se de que o nome do arquivo no CSS corresponda ao novo nome do arquivo.
-- **Personagem Animado:** Para alterar o personagem, substitua o arquivo `character.gif` por outro GIF animado de sua
+- **Personagem Animado:** Para alterar o personagem, substitua o arquivo `character.png` por outro GIF animado de sua
   escolha.
 
 ## Contribuição
