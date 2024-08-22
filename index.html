@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Tabuada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="game-container">
+    <div id="game-header">
+        <h1>Jogo da Tabuada</h1>
+        <div id="score-container">
+            <span>Pontuação: <span id="score">0</span></span>
+        </div>
+    </div>
+
+    <div id="game-stage">
+        <h2>Escolha uma tabuada para começar:</h2>
+        <div id="tabuada-selection">
+            <button onclick="startGame(1)">Tabuada do 1</button>
+            <button onclick="startGame(2)">Tabuada do 2</button>
+            <button onclick="startGame(3)">Tabuada do 3</button>
+            <button onclick="startGame(4)">Tabuada do 4</button>
+            <button onclick="startGame(5)">Tabuada do 5</button>
+            <button onclick="startGame(6)">Tabuada do 6</button>
+            <button onclick="startGame(7)">Tabuada do 7</button>
+            <button onclick="startGame(8)">Tabuada do 8</button>
+            <button onclick="startGame(9)">Tabuada do 9</button>
+            <button onclick="startGame(10)">Tabuada do 10</button>
+        </div>
+    </div>
+
+    <div id="game-board" class="hidden">
+        <div id="question-container">
+            <h2 id="question"></h2>
+            <input type="number" id="answer-input" placeholder="Digite sua resposta">
+            <button id="submit-answer" onclick="checkAnswer()">Responder</button>
+        </div>
+        <div id="bridge-container">
+            <div id="bridge"></div>
+            <img id="character" src="character.png" alt="Personagem" class="hidden">
+        </div>
+    </div>
+
+    <div id="game-over" class="hidden">
+        <h2>Parabéns! Você completou a tabuada!</h2>
+        <button onclick="resetGame()">Jogar Novamente</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

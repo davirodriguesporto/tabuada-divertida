@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./img.png');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Mantém a imagem fixa no fundo */
+}
+
+#game-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo semitransparente para o conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+#game-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#game-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#score-container {
+    margin-top: 10px;
+}
+
+#score-container span {
+    font-size: 18px;
+    color: #666;
+}
+
+#game-stage, #game-board, #game-over {
+    text-align: center;
+}
+
+#tabuada-selection button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#tabuada-selection button:hover {
+    background-color: #0056b3;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#answer-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#submit-answer {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-answer:hover {
+    background-color: #218838;
+}
+
+#bridge-container {
+    margin-top: 20px;
+}
+
+#bridge-container h3 {
+    font-size: 18px;
+}
+
+#bridge {
+    height: 20px;
+    background-color: #f1c40f;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#game-over button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#game-over button:hover {
+    background-color: #0056b3;
+}
+
+
+#bridge-container {
+    margin-top: 20px;
+    position: relative;
+    height: 50px;
+}
+
+#bridge-container h3 {
+    font-size: 18px;
+}
+
+#bridge {
+    height: 20px;
+    background-color: #f1c40f;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}
+
+#character {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    height: 40px;
+    transition: left 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
